@@ -10,6 +10,8 @@
     NIXOS_OZONE_WL = "1";
     
     QT_QPA_PLATFORM = "wayland;xcb";
+
+    KITTY_ENABLE_WAYLAND = "1";
     
     LIBVA_DRIVER_NAME = "nvidia";
     XDG_SESSION_TYPE = "wayland";
