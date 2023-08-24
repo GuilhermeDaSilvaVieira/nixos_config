@@ -15,6 +15,7 @@
       unzip
       exfat
       lm_sensors
+      git
 
       #### Vulkan
       vulkan-tools
