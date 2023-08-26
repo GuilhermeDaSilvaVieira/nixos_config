@@ -1,4 +1,4 @@
-{ inputs, outputs, ... }: {
+{ ... }: {
   services.pipewire = {
     enable = true;
     audio.enable = true;

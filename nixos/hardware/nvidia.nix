@@ -1,4 +1,4 @@
-{ inputs, outputs, ... }: {
+{ ... }: {
   hardware.nvidia = {
     powerManagement.enable = true;
     forceFullCompositionPipeline = true;

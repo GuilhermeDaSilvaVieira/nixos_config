@@ -1,4 +1,4 @@
-{ inputs, outputs, ... }: {
+{ ... }: {
   i18n = {
     defaultLocale = "en_US.UTF-8"; # Errors, Warnings, ETC ...
     extraLocaleSettings = {

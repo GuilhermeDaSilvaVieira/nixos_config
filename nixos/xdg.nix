@@ -1,4 +1,4 @@
-{ inputs, outputs, ... }: {
+{ ... }: {
   xdg = {
     portal = {
       enable = true;

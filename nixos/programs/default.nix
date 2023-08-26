@@ -1,4 +1,4 @@
-{ inputs, outputs, ... }: {
+{ ... }: {
   # Specify each program separately
   imports = [
     ./fish.nix

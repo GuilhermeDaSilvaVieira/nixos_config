@@ -1,4 +1,4 @@
-{ inputs, outputs, pkgs, ... }: {
+{ ... }: {
   console = {
     font = "Lat2-Terminus16";
     keyMap = "br-abnt2";

@@ -1,4 +1,4 @@
-{ inputs, outputs, ... }: {
+{ ... }: {
   # Specify each hardware separately
   imports = [
     ./nvidia.nix

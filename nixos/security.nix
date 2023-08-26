@@ -1,4 +1,4 @@
-{ inputs, outputs, ... }: {
+{ ... }: {
   security = {
     sudo.enable = false;
     rtkit.enable = true;

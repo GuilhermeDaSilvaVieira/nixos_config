@@ -1,4 +1,4 @@
-{ inputs, outputs, pkgs, ... }: {
+{ pkgs, ... }: {
   services.xserver = {
     enable = true;
     layout = "br";

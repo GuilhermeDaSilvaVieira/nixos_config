@@ -1,4 +1,4 @@
-{ inputs, outputs, ... }: {
+{ ... }: {
   environment.variables = {
     FZF_DEFAULT_COMMAND = "fd -H";
 

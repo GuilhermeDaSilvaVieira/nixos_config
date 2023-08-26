@@ -1,4 +1,4 @@
-{ inputs, outputs, pkgs, ... }: {
+{ pkgs, ... }: {
   boot = {
     kernelPackages = pkgs.linuxPackages_latest;
     kernelParams = [ "nvidia_drm.modeset=1" ];

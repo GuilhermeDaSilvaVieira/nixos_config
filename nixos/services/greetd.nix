@@ -1,4 +1,4 @@
-{ inputs, outputs, pkgs, ... }: {
+{ pkgs, ... }: {
   services.greetd = {
     enable = true;
     settings = {

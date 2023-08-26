@@ -1,4 +1,4 @@
-{ inputs, outputs, pkgs, ... }: {
+{ pkgs, ... }: {
   gtk = {
     enable = true;
     cursorTheme = {

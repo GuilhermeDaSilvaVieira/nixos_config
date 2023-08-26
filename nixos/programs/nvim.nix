@@ -1,4 +1,4 @@
-{ inputs, outputs, pkgs, ... }: {
+{ pkgs, ... }: {
   programs.nixneovim = {
     enable = true;
     defaultEditor = true;

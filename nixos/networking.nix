@@ -1,4 +1,4 @@
-{ inputs, outputs, ... }: {
+{ ... }: {
   networking = {
     hostName = "zoro";
     networkmanager.enable = true;

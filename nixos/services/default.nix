@@ -1,4 +1,4 @@
-{ inputs, outputs, ... }: {
+{ ... }: {
   # Specify each service separately
   imports = [
     ./openssh.nix
