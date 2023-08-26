@@ -2,7 +2,7 @@
   environment = {
     defaultPackages =  [];
     systemPackages = with pkgs; [
-# TODO: Rewrite groups of packages like 'Core'
+      # TODO: Rewrite groups of packages like 'Core'
       #### Core
       lld
       gcc
@@ -47,6 +47,14 @@
       virt-manager
 
       #### Programming
+      # Dependencies
+      llvmPackages_rocm.lldb
+      # Languages
+      rustup
+      nil
+      # Editors
+      helix
+      # Tools
       lazygit
       tokei
 
