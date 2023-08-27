@@ -52,6 +52,7 @@
       # Languages
       rustup
       nil
+      marksman
       # Editors
       helix
       # Tools
