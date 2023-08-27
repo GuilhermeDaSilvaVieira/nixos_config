@@ -6,6 +6,10 @@
         isNormalUser = true;
         extraGroups = [ "wheel" "networkmanager" "libvirtd" ];
       };
+      sandai_kitetsu = {
+        isNormalUser = true;
+        extraGroups = [ "wheel" "networkmanager" "libvirtd" ];
+      };
       enma = {
         isNormalUser = true;
         extraGroups = [ "networkmanager" ];
