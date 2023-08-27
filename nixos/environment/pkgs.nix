@@ -53,6 +53,7 @@
       rustup
       nil
       marksman
+      nodePackages_latest.bash-language-server
       # Editors
       helix
       # Tools
