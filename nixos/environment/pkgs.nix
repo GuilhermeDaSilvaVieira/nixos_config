@@ -47,15 +47,28 @@
       virt-manager
 
       #### Programming
-      # Dependencies
-      llvmPackages_rocm.lldb
-      # Languages
-      rustup
-      nil
-      marksman
-      nodePackages_latest.bash-language-server
+        ### Languages
+          # Rust
+          rustup
+
+          # Dependencies
+          llvmPackages_rocm.lldb
+  
+          # Nix
+          nil
+  
+          # Markdown
+          marksman
+          slides
+          graph-easy
+          glow
+  
+          # Bash
+          nodePackages_latest.bash-language-server 
+
       # Editors
-      helix
+      helix 
+
       # Tools
       lazygit
       tokei
