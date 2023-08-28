@@ -75,6 +75,7 @@
 
       #### Proprietary
       discord
+      obsidian
 
       starship      
       redshift
