@@ -11,5 +11,6 @@
     ./devmon.nix
     ./picom.nix
     ./transmission.nix
+    ./syncthing.nix
   ];
 }
