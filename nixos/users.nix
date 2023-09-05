@@ -4,7 +4,7 @@
     users = {
       wado_ichimonji = {
         isNormalUser = true;
-        extraGroups = [ "wheel" "networkmanager" "libvirtd" ];
+        extraGroups = [ "wheel" "networkmanager" "libvirtd" "syncthing" ];
       };
       sandai_kitetsu = {
         isNormalUser = true;
