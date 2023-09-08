@@ -48,14 +48,18 @@
     username = "enma";
     homeDirectory = "/home/enma";
     packages = with pkgs; [
+      # Anime
       ani-cli
       mangal
+
+      # Games
       mangohud
       yuzu-mainline
       dolphin-emu
       cemu
       zsnes2
       rpcs3
+      fceux
     ];
   };
 
