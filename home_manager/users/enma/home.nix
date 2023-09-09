@@ -54,12 +54,10 @@
 
       # Games
       mangohud
+      retroarchFull
       yuzu-mainline
-      dolphin-emu
       cemu
-      zsnes2
       rpcs3
-      fceux
     ];
   };
 
