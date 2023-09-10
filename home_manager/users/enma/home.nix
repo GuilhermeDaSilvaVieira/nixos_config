@@ -54,7 +54,14 @@
 
       # Games
       mangohud
-      retroarchFull
+      (retroarch.override {
+        cores = with libretro; [ 
+          nestopia
+          snes9x
+          swanstation
+          dolphin
+        ];
+      }) 
       yuzu-mainline
       cemu
       rpcs3
