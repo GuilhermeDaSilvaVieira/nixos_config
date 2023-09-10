@@ -16,9 +16,6 @@
     # Nixpkgs-f2k
     nixpkgs-f2k.url = "github:fortuneteller2k/nixpkgs-f2k";
 
-    # NixNeovim
-    nixneovim.url = "github:nixneovim/nixneovim";
-
     # TODO: Add any other flake you might need
     # hardware.url = "github:nixos/nixos-hardware";
 
