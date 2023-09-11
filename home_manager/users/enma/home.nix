@@ -58,7 +58,7 @@
         cores = with libretro; [ 
           nestopia
           snes9x
-          swanstation
+          pcsx2
           dolphin
         ];
       }) 
