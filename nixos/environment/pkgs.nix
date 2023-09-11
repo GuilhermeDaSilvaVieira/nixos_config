@@ -89,7 +89,7 @@
       fd
       ripgrep
       btop
-      exa
+      eza
       kitty
     ];
   };
