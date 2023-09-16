@@ -17,6 +17,9 @@
       lm_sensors
       git
 
+      libnotify
+      exiftool
+
       #### Vulkan
       vulkan-tools
       vulkan-validation-layers
