@@ -5,7 +5,7 @@
       rofi-wayland
       wlr-randr
       kanshi
-      waybar
+      eww-wayland
       mpvpaper
       swaybg
       imv
