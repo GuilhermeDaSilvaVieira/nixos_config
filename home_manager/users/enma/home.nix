@@ -62,7 +62,7 @@
           dolphin        # Wii
 
           # Playstation
-          swanstation    # PS1
+          beetle-psx-hw  # PS1
           pcsx2          # PS2
         ];
       }) 
