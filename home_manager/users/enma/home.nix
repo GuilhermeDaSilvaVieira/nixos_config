@@ -56,10 +56,14 @@
       mangohud
       (retroarch.override {
         cores = with libretro; [ 
-          nestopia
-          snes9x
-          pcsx2
-          dolphin
+          # Nintendo
+          nestopia       # NES
+          snes9x         # SNES
+          dolphin        # Wii
+
+          # Playstation
+          swanstation    # PS1
+          pcsx2          # PS2
         ];
       }) 
       yuzu-mainline
