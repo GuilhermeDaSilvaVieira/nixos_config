@@ -3,6 +3,7 @@
     enable = true;
     extraPackages = with pkgs; [
       ristate
+      kile-wl
       rofi-wayland
       wlr-randr
       kanshi
