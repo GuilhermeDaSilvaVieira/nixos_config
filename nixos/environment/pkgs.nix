@@ -77,7 +77,10 @@
       tokei
 
       #### Proprietary
-      discord
+      (discord.override {
+        withOpenASAR = true;
+        # withVencord = true;
+      })
       obsidian
 
       starship      
