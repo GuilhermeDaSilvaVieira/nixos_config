@@ -42,12 +42,23 @@
       # You can also add overlays exported from other flakes:
       # neovim-nightly-overlay.overlays.default
 
-      # Or define it inline, for example:
-      # (final: prev: {
-      #   hi = final.hello.overrideAttrs (oldAttrs: {
-      #     patches = [ ./change-hello-to-hi.patch ];
-      #   });
-      # })
+      (final: prev: { 
+        ristate = prev.ristate.overrideAttrs(oldAttrs: rec {
+          version = "master";
+
+          src = prev.fetchFromGitLab {
+            owner = "snakedye";
+            repo = "ristate";
+            rev = "92e989f26cadac69af1208163733e73b4cf447da";
+            hash = "sha256-6slH7R6kbSXQBd7q38oBEbngaCbFv0Tyq34VB1PAfhM";
+          };
+
+          cargoDeps = oldAttrs.cargoDeps.overrideAttrs (lib.const {
+            inherit src;
+            outputHash = "sha256-fOo9C0dNL9dYy5wXq/yEDqOV0OhOTEY42XK8ShpQh6k=";
+          });
+        });
+      })
     ];
     # Configure your nixpkgs instance
     config = {

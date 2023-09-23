@@ -2,6 +2,7 @@
   programs.river = {
     enable = true;
     extraPackages = with pkgs; [
+      ristate
       rofi-wayland
       wlr-randr
       kanshi
