@@ -55,8 +55,7 @@
           rustup
 
           # Dependencies
-          llvmPackages_rocm.lldb
-  
+          rocmPackages.llvm.lldb  
           # Nix
           nil
   
