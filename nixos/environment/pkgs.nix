@@ -31,10 +31,15 @@
       sl
       lolcat
       figlet
-
+ 
       #### Browser
       librewolf-wayland
-      ungoogled-chromium
+      (ungoogled-chromium.override {
+        commandLineArgs = [
+          "--force-device-scale-factor=1"
+          "--enable-blink-features=MiddleClickAutoscroll"
+        ];
+      })
 
       #### Media
       yt-dlp
