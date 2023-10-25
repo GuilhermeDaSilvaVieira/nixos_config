@@ -81,6 +81,7 @@
         # withVencord = true;
       })
       obsidian
+      spotify
 
       starship      
       redshift
