@@ -59,7 +59,7 @@
         exec awesome
       '';
 
-    "${config.home.homeDirectory}/.local/share/applications".text = '' 
+    "${config.home.homeDirectory}/.local/share/applications/spotify-adblock.desktop".text = '' 
         [Desktop Entry]
         Type=Application
         Name=Spotify (adblock)
