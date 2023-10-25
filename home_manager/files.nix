@@ -70,6 +70,7 @@
         Terminal=false
         MimeType=x-scheme-handler/spotify;
         Categories=Audio;Music;Player;AudioVideo;
-        StartupWMClass=spotify      '';
-     };
+        StartupWMClass=spotify      
+      '';
+   };
 }
