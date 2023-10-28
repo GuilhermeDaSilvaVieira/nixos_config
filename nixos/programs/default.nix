@@ -6,6 +6,5 @@
     ./gnupg.nix
     ./river.nix
     ./xwayland.nix
-    ./nvim.nix
   ];
 }
