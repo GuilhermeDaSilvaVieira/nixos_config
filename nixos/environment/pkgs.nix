@@ -34,7 +34,11 @@
 
       #### Browser
       librewolf-wayland
-      ungoogled-chromium
+      (ungoogled-chromium.override {
+        commandLineArgs = [
+          "--force-device-scale-factor=1.0"
+        ];
+      })
 
       #### Media
       yt-dlp
