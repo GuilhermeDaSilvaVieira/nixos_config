@@ -6,4 +6,6 @@
     ./bluetooth.nix
     ./pulseaudio.nix
   ];
+
+  hardware.enableAllFirmware = true;
 }
