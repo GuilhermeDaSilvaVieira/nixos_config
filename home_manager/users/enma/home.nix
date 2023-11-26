@@ -69,12 +69,9 @@
       yuzu-mainline
       cemu
       rpcs3
+      steam
     ];
   };
-
-  # Add stuff for your user as you see fit:
-  # programs.neovim.enable = true;
-  # home.packages = with pkgs; [ steam ];
 
   # Enable home-manager
   programs.home-manager.enable = true;
