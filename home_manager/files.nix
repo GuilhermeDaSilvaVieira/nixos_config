@@ -72,5 +72,17 @@
         Categories=Audio;Music;Player;AudioVideo;
         StartupWMClass=spotify      
       '';
+
+    "${config.home.homeDirectory}/.local/share/applications/obsidian-wayland.desktop".text = '' 
+        [Desktop Entry]
+        Categories=Office
+        Comment=Knowledge base
+        Exec=env XDG_SESSION_TYPE="" QT_QPA_PLATFORM="" WAYLAND_DISPLAY="" KITTY_ENABLE_WAYLAND="" obsidian %u
+        Icon=obsidian
+        MimeType=x-scheme-handler/obsidian
+        Name=Obsidian (Wayland)
+        Type=Application
+        Version=1.4
+      '';
    };
 }
