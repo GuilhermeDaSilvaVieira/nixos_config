@@ -1,6 +1,6 @@
 { ... }: {
   console = {
-    font = "Lat2-Terminus16";
+    font = "Lat2-Terminus32";
     keyMap = "br-abnt2";
     colors = [
       # Use terminal.sexy with alacritty
