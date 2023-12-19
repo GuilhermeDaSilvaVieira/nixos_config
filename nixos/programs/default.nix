@@ -1,11 +1,11 @@
 { ... }: {
   # Specify each program separately
   imports = [
-    ./fish.nix
     ./dconf.nix
+    ./fish.nix
     ./gnupg.nix
+    ./nano.nix
     ./river.nix
     ./xwayland.nix
-    ./nano.nix
   ];
 }

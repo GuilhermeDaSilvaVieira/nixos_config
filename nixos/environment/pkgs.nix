@@ -4,33 +4,33 @@
     systemPackages = with pkgs; [
       # TODO: Rewrite groups of packages like 'Core'
       #### Core
-      lld
-      gcc
-      glibc
       clang
-      llvmPackages.bintools
-      wget
-      killall
-      zip
-      unzip
       exfat
-      lm_sensors
+      gcc
       git
+      glibc
+      killall
+      lld
+      llvmPackages.bintools
+      lm_sensors
+      unzip
+      wget
+      zip
 
-      libnotify
       exiftool
+      libnotify
 
       #### Vulkan
+      vulkan-loader
       vulkan-tools
       vulkan-validation-layers
-      vulkan-loader
 
       #### Party tricks
       cmatrix
       cowsay
-      sl
-      lolcat
       figlet
+      lolcat
+      sl
 
       #### Browser
       librewolf-wayland
@@ -41,39 +41,40 @@
       })
 
       #### Media
-      yt-dlp
       cava
-      pavucontrol
-      zathura
-      lf
+      cinnamon.warpinator
       ffmpeg
       ffmpegthumbnailer
+      lf
       mpv
+      pavucontrol
       thunderbird
-      cinnamon.warpinator
       virt-manager
+      yt-dlp
+      zathura
 
       #### Programming
         ### Languages
+          # Bash
+          nodePackages_latest.bash-language-server
+
+          # Dependencies
+          rocmPackages.llvm.lldb
+
+          # Markdown
+          glow
+          graph-easy
+          marksman
+          slides
+
+          # Nix
+          nil
+
           # Rust
           rustup
 
-          # Dependencies
-          rocmPackages.llvm.lldb  
-          # Nix
-          nil
-  
-          # Markdown
-          marksman
-          slides
-          graph-easy
-          glow
-  
-          # Bash
-          nodePackages_latest.bash-language-server 
-
       # Editors
-      helix 
+      helix
 
       # Tools
       lazygit
@@ -87,20 +88,20 @@
       obsidian
       spotify
 
-      starship      
-      redshift
-      feh
       bat
-      p7zip
-      freshfetch
-      neofetch
-      trash-cli
-      fzf
-      fd
-      ripgrep
       btop
       eza
+      fd
+      feh
+      freshfetch
+      fzf
       kitty
+      neofetch
+      p7zip
+      redshift
+      ripgrep
+      starship
+      trash-cli
     ];
   };
 }

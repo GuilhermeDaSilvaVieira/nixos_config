@@ -1,16 +1,16 @@
 { ... }: {
   # Specify each service separately
   imports = [
-    ./openssh.nix
-    ./xserver.nix
-    ./printing.nix
     ./avahi.nix
-    ./greetd.nix
-    ./pipewire.nix
-    ./udisks2.nix
     ./devmon.nix
+    ./greetd.nix
+    ./openssh.nix
     ./picom.nix
-    ./transmission.nix
+    ./pipewire.nix
+    ./printing.nix
     ./syncthing.nix
+    ./transmission.nix
+    ./udisks2.nix
+    ./xserver.nix
   ];
 }
