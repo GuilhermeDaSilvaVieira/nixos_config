@@ -6,5 +6,6 @@
     ./gnupg.nix
     ./river.nix
     ./xwayland.nix
+    ./nano.nix
   ];
 }
