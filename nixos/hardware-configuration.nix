@@ -26,7 +26,7 @@
   #   };
 
   fileSystems."/home" =
-    { device = "/dev/disk/by-uuid/FB50-2438";
+    { device = "/dev/disk/by-uuid/9b2b6019-26e4-4d00-bfc6-d7292c078842";
       fsType = "ext4";
     };
 
