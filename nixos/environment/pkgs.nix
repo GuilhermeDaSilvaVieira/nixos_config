@@ -87,6 +87,7 @@
       })
       obsidian
       spotify
+      tradingview
 
       bat
       btop
