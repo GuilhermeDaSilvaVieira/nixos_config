@@ -103,7 +103,7 @@
 
   powerManagement.resumeCommands = ''
     kill wlsunset
-    wlsunset -t 3400 -T 3401
+    ${pkgs.wlsunset}/bin/wlsunset -t 3400 -T 3401
   '';
 
   # https://nixos.wiki/wiki/FAQ/When_do_I_update_stateVersion
