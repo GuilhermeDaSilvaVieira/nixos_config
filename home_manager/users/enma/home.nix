@@ -54,18 +54,18 @@
 
       # Games
       mangohud
-      (retroarch.override {
-        cores = with libretro; [ 
-          # Nintendo
-          nestopia       # NES
-          snes9x         # SNES
-          dolphin        # Wii
+      # (retroarch.override {
+      #   cores = with libretro; [ 
+      #     # Nintendo
+      #     nestopia       # NES
+      #     snes9x         # SNES
+      #     dolphin        # Wii
 
-          # Playstation
-          beetle-psx-hw  # PS1
-          pcsx2          # PS2
-        ];
-      }) 
+      #     # Playstation
+      #     beetle-psx-hw  # PS1
+      #     pcsx2          # PS2
+      #   ];
+      # }) 
       yuzu-mainline
       cemu
       rpcs3
