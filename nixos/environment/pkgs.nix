@@ -40,7 +40,7 @@
       cinnamon.warpinator
       ffmpeg
       ffmpegthumbnailer
-      lf
+      yazi
       mpv
       pavucontrol
       thunderbird
