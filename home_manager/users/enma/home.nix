@@ -67,7 +67,7 @@
       #   ];
       # }) 
       yuzu-mainline
-      cemu
+      # cemu
       rpcs3
       steam
     ];
