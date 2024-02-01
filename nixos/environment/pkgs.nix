@@ -34,11 +34,6 @@
 
       #### Browser
       librewolf-wayland
-      (ungoogled-chromium.override {
-        commandLineArgs = [
-          "--force-device-scale-factor=1.0"
-        ];
-      })
 
       #### Media
       cava
