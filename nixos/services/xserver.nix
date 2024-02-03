@@ -1,7 +1,7 @@
 { pkgs, ... }: {
   services.xserver = {
     enable = true;
-    layout = "br";
+    xkb.layout = "br";
     excludePackages = with pkgs; [ xterm ];
     videoDrivers = [ "nvidia" ];
     displayManager.startx.enable = true;
