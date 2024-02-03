@@ -91,7 +91,7 @@
       feh
       freshfetch
       fzf
-      kitty
+      stable.kitty
       neofetch
       p7zip
       redshift
