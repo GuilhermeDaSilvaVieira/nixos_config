@@ -20,6 +20,7 @@
     "${config.xdg.configHome}/river".source = config.lib.file.mkOutOfStoreSymlink "${config.home.homeDirectory}/nixos_config/.dotfiles/river";
     "${config.xdg.configHome}/rofi".source = config.lib.file.mkOutOfStoreSymlink "${config.home.homeDirectory}/nixos_config/.dotfiles/rofi";
     "${config.xdg.configHome}/eww".source = config.lib.file.mkOutOfStoreSymlink "${config.home.homeDirectory}/nixos_config/.dotfiles/eww";
+    "${config.xdg.configHome}/yazi".source = config.lib.file.mkOutOfStoreSymlink "${config.home.homeDirectory}/nixos_config/.dotfiles/yazi";
 
     # Xorg
     "${config.home.homeDirectory}/.xinitrc".text = ''
