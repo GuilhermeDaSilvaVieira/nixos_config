@@ -84,6 +84,7 @@
       spotify
       tradingview
 
+      zoxide
       bat
       btop
       eza
