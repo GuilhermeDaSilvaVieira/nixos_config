@@ -7,5 +7,6 @@
     ./nano.nix
     ./river.nix
     ./xwayland.nix
+    ./nix-ld.nix
   ];
 }
