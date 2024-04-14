@@ -5,7 +5,7 @@
       rofi-wayland
       wlr-randr
       kanshi
-      eww-wayland
+      eww
       swaybg
       imv
       mako
