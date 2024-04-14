@@ -19,5 +19,6 @@
     __GLX_VENDOR_LIBRARY_NAME = "nvidia";
 
     EDITOR = "hx";
+    VISUAL = "hx";
   };
 }
