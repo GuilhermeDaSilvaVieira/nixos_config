@@ -12,7 +12,7 @@
       };
       enma = {
         isNormalUser = true;
-        extraGroups = [ "networkmanager" ];
+        extraGroups = [ "wheel" "networkmanager" "libvirtd" ];
       };
     };
   };
