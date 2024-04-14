@@ -66,9 +66,9 @@
           pcsx2          # PS2
         ];
       }) 
-      yuzu-mainline
+      stable.yuzu-mainline
       stable.cemu
-      rpcs3
+      stable.rpcs3
       steam
     ];
   };
