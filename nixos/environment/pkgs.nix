@@ -67,6 +67,7 @@
 
           # Rust
           rustup
+          bacon
 
       # Editors
       helix
