@@ -34,6 +34,7 @@
 
       #### Browser
       librewolf-wayland
+      tor-browser
 
       #### Media
       cava
