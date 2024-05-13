@@ -12,5 +12,6 @@
     ./transmission.nix
     ./udisks2.nix
     ./xserver.nix
+    ./searxng.nix
   ];
 }
