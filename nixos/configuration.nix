@@ -45,13 +45,6 @@
       (final: prev: { 
         awesome = inputs.nixpkgs-f2k.packages.${final.system}.awesome-luajit-git;
         # river = inputs.nixpkgs-f2k.packages.${final.system}.river-git;
-
-        discord = prev.discord.overrideAttrs( _: {
-          src = builtins.fetchTarball {
-            url = "https://discord.com/api/download?platform=linux&format=tar.gz";
-            sha256 = "0pml1x6pzmdp6h19257by1x5b25smi2y60l1z40mi58aimdp59ss";
-          };
-        });
       })
     ];
     # Configure your nixpkgs instance
