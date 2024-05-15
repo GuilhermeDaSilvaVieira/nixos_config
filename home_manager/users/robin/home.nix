@@ -23,7 +23,7 @@
     packages = with pkgs; [
       stable.obsidian
     ];
-    files = {
+    file = {
     "${config.home.homeDirectory}/.local/share/applications/obsidian-wayland.desktop".text = '' 
         [Desktop Entry]
         Categories=Office

@@ -6,9 +6,6 @@
   home-manager = {
     extraSpecialArgs = { inherit inputs outputs; };
     users = {
-      enma = import ./users/enma/home.nix;
-      wado_ichimonji = import ./users/wado_ichimonji/home.nix;
-
       luffy = import ./users/luffy/home.nix;
       zoro = import ./users/zoro/home.nix;
       nami = import ./users/nami/home.nix;

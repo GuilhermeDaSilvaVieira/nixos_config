@@ -24,7 +24,7 @@
       cava
       spotify
     ];
-    files = {
+    file = {
     "${config.home.homeDirectory}/.local/share/applications/spotify-adblock.desktop".text = '' 
         [Desktop Entry]
         Type=Application

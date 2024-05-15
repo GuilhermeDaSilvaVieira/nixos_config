@@ -60,7 +60,7 @@
     ];
   };
 
-  hardware.steam-hardware.enable = true;
+  # hardware.steam-hardware.enable = true;
 
   programs.home-manager.enable = true;
 
