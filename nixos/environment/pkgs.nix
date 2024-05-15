@@ -16,28 +16,16 @@
       unzip
       wget
       zip
-
+      tree
       exiftool
       libnotify
-
-      #### Vulkan
-      vulkan-loader
-      vulkan-tools
-      vulkan-validation-layers
-
-      #### Party tricks
-      cmatrix
-      cowsay
-      figlet
-      lolcat
-      sl
 
       #### Browser
       librewolf-wayland
       tor-browser
+      tor
 
       #### Media
-      cava
       cinnamon.warpinator
       ffmpeg
       ffmpegthumbnailer
@@ -45,46 +33,11 @@
       mpv
       pavucontrol
       thunderbird
-      virt-manager
       yt-dlp
       zathura
 
-      #### Programming
-        ### Languages
-          # Bash
-          nodePackages_latest.bash-language-server
-
-          # Dependencies
-          rocmPackages.llvm.lldb
-
-          # Markdown
-          glow
-          graph-easy
-          marksman
-          slides
-
-          # Nix
-          nil
-
-          # Rust
-          rustup
-          bacon
-
       # Editors
       helix
-
-      # Tools
-      lazygit
-      tokei
-
-      #### Proprietary
-      (discord.override {
-        withOpenASAR = true;
-        # withVencord = true;
-      })
-      stable.obsidian
-      spotify
-      tradingview
 
       zoxide
       bat
@@ -93,14 +46,13 @@
       fd
       feh
       freshfetch
+      neofetch
       fzf
       stable.kitty
-      neofetch
-      p7zip
       redshift
       ripgrep
+      maim
       starship
-      trash-cli
     ];
   };
 }

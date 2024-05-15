@@ -2,18 +2,25 @@
   users = {
     defaultUserShell = pkgs.fish;
     users = {
-      wado_ichimonji = {
+      luffy = {
         isNormalUser = true;
-        extraGroups = [ "wheel" "networkmanager" "libvirtd" "syncthing" ];
+        extraGroups = [ "wheel" "networkmanager" ];
       };
-      sandai_kitetsu = {
+      zoro.isNormalUser = true;
+      nami.isNormalUser = true;
+      usopp.isNormalUser = true;
+      sanji.isNormalUser = true;
+      chopper.isNormalUser = true;
+      robin = {
+        isNormalUser = true;
+        extraGroups = [ "wheel" "syncthing" ];
+      };
+      franky = {
         isNormalUser = true;
         extraGroups = [ "wheel" "networkmanager" "libvirtd" ];
       };
-      enma = {
-        isNormalUser = true;
-        extraGroups = [ "wheel" "networkmanager" "libvirtd" ];
-      };
+      brook.isNormalUser = true;
+      jinbe.isNormalUser = true;
     };
   };
 }

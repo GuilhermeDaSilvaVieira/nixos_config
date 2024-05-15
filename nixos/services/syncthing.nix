@@ -1,6 +1,6 @@
 { ... }: 
 let
-	user = "wado_ichimonji";
+	user = "robin";
 in {
 	services.syncthing = {
 		enable = true;

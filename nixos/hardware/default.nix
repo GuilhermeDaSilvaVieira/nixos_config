@@ -8,5 +8,4 @@
   ];
 
   hardware.enableAllFirmware = true;
-  hardware.steam-hardware.enable = true;
 }

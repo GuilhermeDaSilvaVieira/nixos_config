@@ -1,6 +1,6 @@
 { ... }: {
   networking = {
-    hostName = "zoro";
+    hostName = "mugiwara";
     networkmanager.enable = true;
 
     firewall = {

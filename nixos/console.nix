@@ -3,8 +3,7 @@
     font = "Lat2-Terminus32";
     keyMap = "br-abnt2";
     colors = [
-      # Use terminal.sexy with alacritty
-      # Material
+      # Material terminal.sexy 
       "263238"
       "ff9800"
       "8bc34a"
