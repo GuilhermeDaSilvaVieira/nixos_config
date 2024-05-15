@@ -1,4 +1,5 @@
-{ outputs, ... }: {
+{ outputs, ... }:
+{
   imports = [
     ../../gtk.nix
     ../../files.nix

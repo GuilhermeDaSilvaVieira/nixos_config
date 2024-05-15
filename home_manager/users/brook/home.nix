@@ -1,4 +1,10 @@
-{ outputs, config, pkgs, ... }: {
+{
+  outputs,
+  config,
+  pkgs,
+  ...
+}:
+{
   imports = [
     ../../gtk.nix
     ../../files.nix
@@ -25,7 +31,7 @@
       spotify
     ];
     file = {
-    "${config.home.homeDirectory}/.local/share/applications/spotify-adblock.desktop".text = '' 
+      "${config.home.homeDirectory}/.local/share/applications/spotify-adblock.desktop".text = ''
         [Desktop Entry]
         Type=Application
         Name=Spotify (adblock)

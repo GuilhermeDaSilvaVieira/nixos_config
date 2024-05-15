@@ -1,4 +1,5 @@
-{ ... }: {
+{ ... }:
+{
   console = {
     font = "Lat2-Terminus32";
     keyMap = "br-abnt2";

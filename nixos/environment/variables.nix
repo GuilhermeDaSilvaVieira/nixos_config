@@ -1,4 +1,5 @@
-{ ... }: {
+{ ... }:
+{
   environment.variables = {
     FZF_DEFAULT_COMMAND = "fd -H";
 
@@ -8,11 +9,11 @@
     WLR_RENDERER = "vulkan";
 
     NIXOS_OZONE_WL = "1";
-    
+
     QT_QPA_PLATFORM = "wayland;xcb";
 
     KITTY_ENABLE_WAYLAND = "1";
-    
+
     LIBVA_DRIVER_NAME = "nvidia";
     XDG_SESSION_TYPE = "wayland";
     GBM_BACKEND = "nvidia-drm";

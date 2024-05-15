@@ -1,4 +1,10 @@
-{ outputs, config, pkgs, ... }: {
+{
+  outputs,
+  config,
+  pkgs,
+  ...
+}:
+{
   imports = [
     ../../gtk.nix
     ../../files.nix
@@ -20,11 +26,9 @@
   home = {
     username = "robin";
     homeDirectory = "/home/robin";
-    packages = with pkgs; [
-      stable.obsidian
-    ];
+    packages = with pkgs; [ stable.obsidian ];
     file = {
-    "${config.home.homeDirectory}/.local/share/applications/obsidian-wayland.desktop".text = '' 
+      "${config.home.homeDirectory}/.local/share/applications/obsidian-wayland.desktop".text = ''
         [Desktop Entry]
         Categories=Office
         Comment=Knowledge base

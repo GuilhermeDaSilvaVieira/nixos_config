@@ -1,4 +1,5 @@
-{ outputs, pkgs, ... }: {
+{ outputs, pkgs, ... }:
+{
   imports = [
     ../../gtk.nix
     ../../files.nix
@@ -20,9 +21,7 @@
   home = {
     username = "nami";
     homeDirectory = "/home/nami";
-    packages = with pkgs; [
-      tradingview
-    ];
+    packages = with pkgs; [ tradingview ];
   };
 
   programs.home-manager.enable = true;

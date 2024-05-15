@@ -1,4 +1,5 @@
-{ ... }: {
+{ ... }:
+{
   # Specify each program separately
   imports = [
     ./dconf.nix

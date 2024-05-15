@@ -1,10 +1,11 @@
-{ inputs, outputs, ... }: {
-  imports = [
-    inputs.home-manager.nixosModules.home-manager
-  ];
+{ inputs, outputs, ... }:
+{
+  imports = [ inputs.home-manager.nixosModules.home-manager ];
 
   home-manager = {
-    extraSpecialArgs = { inherit inputs outputs; };
+    extraSpecialArgs = {
+      inherit inputs outputs;
+    };
     users = {
       luffy = import ./users/luffy/home.nix;
       zoro = import ./users/zoro/home.nix;

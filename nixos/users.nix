@@ -1,10 +1,14 @@
-{ pkgs, ... }: {
+{ pkgs, ... }:
+{
   users = {
     defaultUserShell = pkgs.fish;
     users = {
       luffy = {
         isNormalUser = true;
-        extraGroups = [ "wheel" "networkmanager" ];
+        extraGroups = [
+          "wheel"
+          "networkmanager"
+        ];
       };
       zoro.isNormalUser = true;
       nami.isNormalUser = true;
@@ -13,11 +17,18 @@
       chopper.isNormalUser = true;
       robin = {
         isNormalUser = true;
-        extraGroups = [ "wheel" "syncthing" ];
+        extraGroups = [
+          "wheel"
+          "syncthing"
+        ];
       };
       franky = {
         isNormalUser = true;
-        extraGroups = [ "wheel" "networkmanager" "libvirtd" ];
+        extraGroups = [
+          "wheel"
+          "networkmanager"
+          "libvirtd"
+        ];
       };
       brook.isNormalUser = true;
       jinbe.isNormalUser = true;

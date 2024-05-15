@@ -1,4 +1,5 @@
-{ ... }: {
+{ ... }:
+{
   # Specify each service separately
   imports = [
     ./avahi.nix

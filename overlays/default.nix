@@ -2,15 +2,14 @@
 {
   additions = final: _prev: import ../pkgs { pkgs = final; };
 
-  modifications = final: prev: {
-  };
+  modifications = final: prev: { };
 
   stable-packages = final: _prev: {
     stable = import inputs.nixpkgs-stable {
       system = final.system;
       config = {
         allowUnfree = true;
-        permittedInsecurePackages = ["electron-25.9.0"];
+        permittedInsecurePackages = [ "electron-25.9.0" ];
       };
     };
   };

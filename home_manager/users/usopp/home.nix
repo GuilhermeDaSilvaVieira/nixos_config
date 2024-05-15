@@ -1,4 +1,5 @@
-{ outputs, pkgs, ... }: {
+{ outputs, pkgs, ... }:
+{
   imports = [
     ../../gtk.nix
     ../../files.nix
@@ -27,24 +28,22 @@
       # Games
       mangohud
       (stable.retroarch.override {
-        cores = with stable.libretro; [ 
+        cores = with stable.libretro; [
           # Nintendo
-          nestopia       # NES
-          snes9x         # SNES
-          dolphin        # Wii
+          nestopia # NES
+          snes9x # SNES
+          dolphin # Wii
 
           # Playstation
-          beetle-psx-hw  # PS1
-          pcsx2          # PS2
+          beetle-psx-hw # PS1
+          pcsx2 # PS2
         ];
-      }) 
+      })
       stable.yuzu-mainline
       stable.cemu
       steam
 
-      (discord.override {
-        withOpenASAR = true;
-      })
+      (discord.override { withOpenASAR = true; })
 
       # Vulkan
       vulkan-loader

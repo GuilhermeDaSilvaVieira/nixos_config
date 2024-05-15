@@ -1,4 +1,5 @@
-{ ... }: {
+{ ... }:
+{
   # Specify each hardware separately
   imports = [
     ./bluetooth.nix

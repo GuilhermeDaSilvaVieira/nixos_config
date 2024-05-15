@@ -1,4 +1,11 @@
-{ inputs, outputs, lib, config, ... }: {
+{
+  inputs,
+  outputs,
+  lib,
+  config,
+  ...
+}:
+{
   imports = [
     ./users.nix
     ./networking.nix
@@ -22,7 +29,7 @@
       outputs.overlays.additions
       outputs.overlays.modifications
       outputs.overlays.stable-packages
-      (final: prev: { 
+      (final: prev: {
         awesome = inputs.nixpkgs-f2k.packages.${final.system}.awesome-luajit-git;
         # river = inputs.nixpkgs-f2k.packages.${final.system}.river-git;
       })
