@@ -46,7 +46,6 @@
       eza
       fd
       feh
-      freshfetch
       neofetch
       fzf
       stable.kitty
