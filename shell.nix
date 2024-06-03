@@ -34,4 +34,14 @@
     LD_LIBRARY_PATH = "${pkgs.libxkbcommon}/lib:${pkgs.libGL}/lib:${pkgs.wayland}/lib";
     RUST_BACKTRACE = 1;
   };
+  matplotlib = pkgs.mkShell {
+    packages = [
+      (pkgs.python3.withPackages (python-pkgs: [
+        # select Python packages here
+        python-pkgs.pandas
+        python-pkgs.matplotlib
+        python-pkgs.python-lsp-server
+      ]))
+    ];
+  };
 }
