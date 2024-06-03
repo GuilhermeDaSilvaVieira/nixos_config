@@ -39,7 +39,7 @@
           pcsx2 # PS2
         ];
       })
-      stable.yuzu-mainline
+      # stable.yuzu-mainline
       stable.cemu
       steam
 
@@ -67,5 +67,5 @@
   systemd.user.startServices = "sd-switch";
 
   # https://nixos.wiki/wiki/FAQ/When_do_I_update_stateVersion
-  home.stateVersion = "23.11";
+  home.stateVersion = "24.05";
 }
