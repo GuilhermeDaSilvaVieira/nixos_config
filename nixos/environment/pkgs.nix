@@ -40,6 +40,9 @@
       # Editors
       helix
 
+      fuzzel
+      niri
+
       zoxide
       bat
       btop
