@@ -44,4 +44,31 @@
       ]))
     ];
   };
+  smithay = pkgs.mkShell {
+    nativeBuildInputs = with pkgs; [
+      pkg-config
+      rustPlatform.bindgenHook
+      autoPatchelfHook
+      clang
+    ];
+
+    buildInputs = with pkgs; [
+      wayland
+      systemd # For libudev
+      seatd # For libseat
+      libxkbcommon
+      libinput
+      mesa # For libgbm
+      fontconfig
+      stdenv.cc.cc.lib
+      pipewire
+      pango
+    ];
+
+    runtimeDependencies = with pkgs; [
+      wayland
+      mesa
+      libglvnd # For libEGL
+    ];
+  };
 }
