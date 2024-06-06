@@ -70,5 +70,6 @@
       mesa
       libglvnd # For libEGL
     ];
+    LD_LIBRARY_PATH = "${pkgs.libxkbcommon}/lib:${pkgs.libGL}/lib:${pkgs.wayland}/lib";
   };
 }
