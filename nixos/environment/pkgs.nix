@@ -40,8 +40,9 @@
       # Editors
       helix
 
-      fuzzel
-      niri
+      renameutils
+
+      transmission_4-gtk
 
       zoxide
       bat

@@ -10,7 +10,7 @@
     ./pipewire.nix
     ./printing.nix
     ./syncthing.nix
-    ./transmission.nix
+    # ./transmission.nix
     ./udisks2.nix
     ./xserver.nix
     ./searxng.nix
