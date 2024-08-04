@@ -27,7 +27,7 @@
       tor
 
       #### Media
-      cinnamon.warpinator
+      warpinator
       ffmpeg
       ffmpegthumbnailer
       yazi
