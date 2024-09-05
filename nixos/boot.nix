@@ -1,6 +1,9 @@
 { pkgs, ... }:
 {
   boot = {
+    kernel.sysctl = {
+      "vm.swappiness" = 3;
+    };
     kernelPackages = pkgs.linuxPackages_latest;
     # kernelParams = [ "nvidia_drm.modeset=1" ];
     # kernelModules = [
