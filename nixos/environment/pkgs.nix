@@ -44,6 +44,9 @@
 
       transmission_4-gtk
 
+      # Backup
+      rsync
+
       zoxide
       bat
       btop
@@ -52,7 +55,7 @@
       feh
       neofetch
       fzf
-      stable.kitty
+      kitty
       redshift
       ripgrep
       maim
