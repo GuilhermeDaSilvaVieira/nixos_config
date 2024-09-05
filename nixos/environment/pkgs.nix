@@ -23,6 +23,7 @@
 
       #### Browser
       librewolf-wayland
+      mullvad-browser
       tor-browser
       tor
 
