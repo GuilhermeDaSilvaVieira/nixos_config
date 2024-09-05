@@ -9,6 +9,10 @@
       inputs.nixpkgs.follows = "nixpkgs";
     };
     nixpkgs-f2k.url = "github:moni-dz/nixpkgs-f2k";
+    # nixos-cosmic = {
+    #   url = "github:lilyinstarlight/nixos-cosmic";
+    #   inputs.nixpkgs.follows = "nixpkgs";
+    # };
   };
 
   outputs =
@@ -53,6 +57,7 @@
           };
           modules = [
             ./nixos/configuration.nix
+            # inputs.nixos-cosmic.nixosModules.default
             ./home_manager
           ];
         };
