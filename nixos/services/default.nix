@@ -4,7 +4,7 @@
   imports = [
     ./avahi.nix
     ./devmon.nix
-    ./greetd.nix
+    # ./greetd.nix
     ./openssh.nix
     ./picom.nix
     ./pipewire.nix
