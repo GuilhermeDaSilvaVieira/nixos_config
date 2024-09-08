@@ -40,13 +40,14 @@
 
       # Editors
       helix
-
       renameutils
 
       transmission_4-gtk
 
       # Backup
       rsync
+
+      appimage-run
 
       zoxide
       bat
