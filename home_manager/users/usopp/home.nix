@@ -42,6 +42,7 @@
       # stable.yuzu-mainline
       stable.cemu
       steam
+      blastem
 
       (discord.override { withOpenASAR = true; })
 
