@@ -1,4 +1,4 @@
-{ pkgs, ... }:
+{ inputs, pkgs, ... }:
 {
   environment = {
     defaultPackages = [ ];
@@ -22,7 +22,7 @@
       libnotify
 
       #### Browser
-      librewolf-wayland
+      inputs.zen-browser.packages."${system}".specific
       mullvad-browser
       tor-browser
       tor
