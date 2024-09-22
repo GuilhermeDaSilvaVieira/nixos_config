@@ -10,7 +10,7 @@
       LC_NUMERIC = "pt_BR.UTF-8";
       LC_PAPER = "pt_BR.UTF-8";
       LC_TELEFONE = "pt_BR.UTF-8";
-      LC_TIME = "pt_BR.UTF-8";
+      LC_TIME = "en_IE.UTF-8"; # First day of the week is monday
     };
   };
 }
