@@ -29,7 +29,6 @@
           "networkmanager"
           "libvirtd"
           "kvm"
-          "adbusers"
         ];
       };
       brook.isNormalUser = true;

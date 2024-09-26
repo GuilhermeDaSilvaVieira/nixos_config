@@ -10,6 +10,5 @@
     ./xwayland.nix
     ./nix-ld.nix
     ./nh.nix
-    ./adb.nix
   ];
 }
