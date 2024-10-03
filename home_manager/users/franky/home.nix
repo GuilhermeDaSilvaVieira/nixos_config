@@ -28,6 +28,7 @@
       # Tools
       lazygit
       tokei
+      figma-linux
 
       # Bash
       nodePackages_latest.bash-language-server
