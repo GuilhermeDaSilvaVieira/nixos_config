@@ -21,7 +21,10 @@
       #     "nvidia_drm"
       #   ];
     };
-    # blacklistedKernelModules = [ "kms" ];
+    blacklistedKernelModules = [
+      "kms"
+      "nvidiafb"
+    ];
     loader = {
       systemd-boot.enable = true;
       timeout = 0;
