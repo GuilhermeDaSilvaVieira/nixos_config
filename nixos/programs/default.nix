@@ -9,6 +9,5 @@
     ./river.nix
     ./xwayland.nix
     ./nix-ld.nix
-    ./nh.nix
   ];
 }
