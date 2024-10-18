@@ -45,6 +45,9 @@
       rustfmt
       lldb_18
 
+      # Postgres
+      stable.pgadmin4-desktopmode
+
       # Virtualization
       virt-manager
     ];
