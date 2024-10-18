@@ -23,7 +23,7 @@
     homeDirectory = "/home/franky";
     packages = with pkgs; [
       # Dependencies
-      rocmPackages.llvm.lldb
+      # rocmPackages.llvm.lldb
 
       # Tools
       lazygit
