@@ -28,16 +28,13 @@
       # Tools
       lazygit
       tokei
-      figma-linux
+      devbox
 
       # Bash
       nodePackages_latest.bash-language-server
 
       # Markdown
-      glow
-      graph-easy
       marksman
-      slides
 
       # Nix
       nil
@@ -45,7 +42,6 @@
 
       # Rust
       rustup
-      bacon
 
       # Virtualization
       virt-manager
