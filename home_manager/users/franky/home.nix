@@ -25,7 +25,6 @@
       # Tools
       lazygit
       tokei
-      devbox
 
       # Bash
       nodePackages_latest.bash-language-server
