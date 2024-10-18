@@ -22,9 +22,6 @@
     username = "franky";
     homeDirectory = "/home/franky";
     packages = with pkgs; [
-      # Dependencies
-      # rocmPackages.llvm.lldb
-
       # Tools
       lazygit
       tokei
