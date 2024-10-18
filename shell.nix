@@ -11,6 +11,17 @@
       git
     ];
   };
+  fastapi = pkgs.mkShell {
+    packages = [
+      (pkgs.python3.withPackages (
+        python-pkgs: with python-pkgs; [
+          fastapi
+          uvicorn
+          python-lsp-server
+        ]
+      ))
+    ];
+  };
   wgpu = pkgs.mkShell {
     nativeBuildInputs = with pkgs; [
       libxkbcommon
