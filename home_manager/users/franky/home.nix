@@ -43,9 +43,11 @@
       # Rust
       # rustup
       rustc
+      rust-analyzer
       clippy
       cargo
       rustfmt
+      lldb_18
 
       # Virtualization
       virt-manager
