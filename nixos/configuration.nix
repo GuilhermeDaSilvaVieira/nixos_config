@@ -44,15 +44,23 @@
     nixPath = lib.mapAttrsToList (key: value: "${key}=${value.to.path}") config.nix.registry;
     settings = {
       experimental-features = "nix-command flakes";
+      trusted-substituters = [
+        "https://cache.nixos.org/"
+      ];
       auto-optimise-store = true;
       # substituters = [ "https://cosmic.cachix.org/" ];
       # trusted-public-keys = [ "cosmic.cachix.org-1:Dya9IyXD4xdBehWjrkPv6rtxpmMdRel02smYzA85dPE=" ];
+      max-jobs = 6;
     };
     gc = {
       automatic = true;
       dates = "weekly";
       options = "--delete-older-than 7d";
     };
+    # size in bytes 64MB
+    extraOptions = ''
+      download-buffer-size = 134217728
+    '';
   };
 
   # https://nixos.wiki/wiki/FAQ/When_do_I_update_stateVersion
