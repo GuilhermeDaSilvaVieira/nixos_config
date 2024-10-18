@@ -2,6 +2,6 @@
 {
   services.postgresql = {
     enable = true;
-    dataDir = "/PostgreSQL/";
+    # dataDir = "/PostgreSQL/";
   };
 }
