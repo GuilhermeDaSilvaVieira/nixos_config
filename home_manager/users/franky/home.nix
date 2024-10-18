@@ -41,7 +41,11 @@
       nixfmt-rfc-style
 
       # Rust
-      rustup
+      # rustup
+      rustc
+      clippy
+      cargo
+      rustfmt
 
       # Virtualization
       virt-manager
