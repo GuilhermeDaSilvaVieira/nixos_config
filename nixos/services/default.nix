@@ -14,5 +14,6 @@
     ./searxng.nix
     ./logind.nix
     ./android-udev-rules.nix
+    ./postgres.nix
   ];
 }
