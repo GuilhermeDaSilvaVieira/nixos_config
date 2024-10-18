@@ -8,7 +8,7 @@
       clang
       exfat
       gcc
-      git
+      # git
       glibc
       killall
       lld
