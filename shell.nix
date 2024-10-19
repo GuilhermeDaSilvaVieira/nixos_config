@@ -13,6 +13,7 @@
   };
   fastapi = pkgs.mkShell {
     packages = [
+      pkgs.httpie
       (pkgs.python3.withPackages (
         python-pkgs: with python-pkgs; [
           fastapi
