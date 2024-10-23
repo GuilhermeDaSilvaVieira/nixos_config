@@ -42,8 +42,10 @@
       rust-analyzer
       clippy
       cargo
+      cargo-watch
       rustfmt
       lldb_18
+      taplo
 
       # Postgres
       stable.pgadmin4-desktopmode
