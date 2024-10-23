@@ -13,12 +13,17 @@
   };
   fastapi = pkgs.mkShell {
     packages = [
+      # pkgs.pyright
       pkgs.httpie
       (pkgs.python3.withPackages (
         python-pkgs: with python-pkgs; [
           fastapi
           uvicorn
           python-lsp-server
+          black
+          sqlalchemy
+          psycopg2
+          bcrypt
         ]
       ))
     ];
