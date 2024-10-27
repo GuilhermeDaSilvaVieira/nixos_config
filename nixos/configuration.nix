@@ -57,7 +57,7 @@
       dates = "weekly";
       options = "--delete-older-than 7d";
     };
-    # size in bytes 64MB
+    # size in bytes 128MB
     extraOptions = ''
       download-buffer-size = 134217728
     '';
