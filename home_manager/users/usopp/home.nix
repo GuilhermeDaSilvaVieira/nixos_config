@@ -39,7 +39,8 @@
           pcsx2 # PS2
         ];
       })
-      # stable.yuzu-mainline
+      # stable.yuzu-mainline 23.11
+      ryujinx
       stable.cemu
       steam
       blastem
