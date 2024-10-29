@@ -47,6 +47,9 @@
       lldb_18
       taplo
 
+      # Json
+      vscode-langservers-extracted
+
       # Postgres
       stable.pgadmin4-desktopmode
 
