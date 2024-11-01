@@ -37,6 +37,7 @@
       thunderbird
       yt-dlp
       zathura
+      foliate
 
       # Editors
       helix
