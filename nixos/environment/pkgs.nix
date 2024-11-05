@@ -28,7 +28,7 @@
       tor
 
       #### Media
-      warpinator
+      localsend
       ffmpeg
       ffmpegthumbnailer
       yazi
