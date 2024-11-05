@@ -14,7 +14,7 @@
       slurp
       wl-clipboard
       wlsunset
-      wf-recorder
+      stable.wf-recorder
     ];
   };
 }

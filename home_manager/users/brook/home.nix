@@ -28,7 +28,7 @@
     homeDirectory = "/home/brook";
     packages = with pkgs; [
       cava
-      spotify
+      # spotify
     ];
     file = {
       "${config.home.homeDirectory}/.local/share/applications/spotify-adblock.desktop".text = ''
