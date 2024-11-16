@@ -31,7 +31,7 @@
       localsend
       ffmpeg
       ffmpegthumbnailer
-      stable.yazi
+      yazi
       mpv
       pavucontrol
       thunderbird
