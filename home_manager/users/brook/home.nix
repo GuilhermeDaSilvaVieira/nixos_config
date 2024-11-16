@@ -27,7 +27,6 @@
     username = "brook";
     homeDirectory = "/home/brook";
     packages = with pkgs; [
-      cava
       # spotify
     ];
     file = {
