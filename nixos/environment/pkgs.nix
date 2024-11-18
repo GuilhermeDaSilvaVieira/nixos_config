@@ -28,7 +28,6 @@
       tor
 
       #### Media
-      localsend
       ffmpeg
       ffmpegthumbnailer
       yazi
