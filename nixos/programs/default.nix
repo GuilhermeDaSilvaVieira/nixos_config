@@ -9,5 +9,6 @@
     ./river.nix
     ./xwayland.nix
     ./nix-ld.nix
+    ./localsend.nix
   ];
 }
