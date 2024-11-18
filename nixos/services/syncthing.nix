@@ -5,6 +5,7 @@ in
 {
   services.syncthing = {
     enable = true;
+    openDefaultPorts = true;
     user = user;
     dataDir = "/home/${user}/Documents/Obsidian";
     configDir = "/home/${user}/Documents/Obsidian/.config/syncthing";
