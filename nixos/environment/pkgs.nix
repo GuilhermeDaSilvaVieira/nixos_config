@@ -23,7 +23,6 @@
 
       #### Browser
       inputs.zen-browser.packages."${system}".specific
-      mullvad-browser
       tor-browser
       tor
 
