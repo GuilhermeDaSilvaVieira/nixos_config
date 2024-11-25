@@ -15,5 +15,6 @@
     ./logind.nix
     ./android-udev-rules.nix
     ./postgres.nix
+    ./dbus.nix
   ];
 }
