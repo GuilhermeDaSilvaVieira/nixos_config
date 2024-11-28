@@ -45,7 +45,10 @@
       steam
       blastem
 
-      (discord.override { withOpenASAR = true; })
+      (discord.override {
+        # withOpenASAR = true;
+        withVencord = true;
+      })
 
       # Vulkan
       vulkan-loader
