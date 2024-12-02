@@ -3,16 +3,12 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
-    nixpkgs-stable.url = "github:nixos/nixpkgs/nixos-24.05";
+    nixpkgs-stable.url = "github:nixos/nixpkgs/nixos-24.11";
     home-manager = {
       url = "github:nix-community/home-manager/master";
       inputs.nixpkgs.follows = "nixpkgs";
     };
     nixpkgs-f2k.url = "github:moni-dz/nixpkgs-f2k";
-    # nixos-cosmic = {
-    #   url = "github:lilyinstarlight/nixos-cosmic";
-    #   inputs.nixpkgs.follows = "nixpkgs";
-    # };
     zen-browser.url = "github:ch4og/zen-browser-flake";
   };
 
@@ -58,7 +54,6 @@
           };
           modules = [
             ./nixos/configuration.nix
-            # inputs.nixos-cosmic.nixosModules.default
             ./home_manager
           ];
         };
