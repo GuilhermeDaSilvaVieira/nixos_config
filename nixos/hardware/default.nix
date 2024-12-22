@@ -4,7 +4,7 @@
   imports = [
     ./bluetooth.nix
     # ./nvidia.nix
-    ./opengl.nix
+    ./graphics.nix
     ./pulseaudio.nix
   ];
 
