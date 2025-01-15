@@ -5,7 +5,6 @@
     ./bluetooth.nix
     # ./nvidia.nix
     ./graphics.nix
-    ./pulseaudio.nix
   ];
 
   hardware.enableAllFirmware = true;

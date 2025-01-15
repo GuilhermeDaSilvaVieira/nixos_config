@@ -16,5 +16,6 @@
     ./android-udev-rules.nix
     ./postgres.nix
     ./dbus.nix
+    ./pulseaudio.nix
   ];
 }
