@@ -56,7 +56,7 @@
       feh
       neofetch
       fzf
-      kitty
+      stable.kitty
       redshift
       ripgrep
       maim
