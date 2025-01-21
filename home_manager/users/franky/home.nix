@@ -55,6 +55,9 @@
 
       # Virtualization
       virt-manager
+
+      # Version management
+      asdf-vm
     ];
   };
 
