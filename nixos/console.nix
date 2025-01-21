@@ -4,7 +4,7 @@
     font = "Lat2-Terminus32";
     keyMap = "br-abnt2";
     colors = [
-      # Material terminal.sexy 
+      # Material terminal.sexy
       "263238"
       "ff9800"
       "8bc34a"
