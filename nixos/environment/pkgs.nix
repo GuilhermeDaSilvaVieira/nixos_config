@@ -36,6 +36,7 @@
       yt-dlp
       zathura
       foliate
+      shotcut
 
       # Editors
       helix
