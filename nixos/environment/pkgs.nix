@@ -20,6 +20,7 @@
       tree
       exiftool
       libnotify
+      xdg-user-dirs
 
       #### Browser
       inputs.zen-browser.packages."${system}".specific
