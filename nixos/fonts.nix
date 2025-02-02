@@ -72,6 +72,8 @@
       nerd-fonts.zed-mono
       noto-fonts
       noto-fonts-emoji
+      corefonts
+      vistafonts
     ];
   };
 }
