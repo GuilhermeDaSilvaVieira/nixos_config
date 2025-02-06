@@ -15,11 +15,13 @@
     packages = [
       # pkgs.pyright
       pkgs.httpie
+      pkgs.ruff
       (pkgs.python3.withPackages (
         python-pkgs: with python-pkgs; [
           fastapi
           uvicorn
           python-lsp-server
+          jedi-language-server
           black
           sqlalchemy
           psycopg2
