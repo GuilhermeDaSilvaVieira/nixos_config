@@ -13,7 +13,7 @@
   };
   fastapi = pkgs.mkShell {
     packages = [
-      # pkgs.pyright
+      pkgs.basedpyright
       pkgs.httpie
       pkgs.ruff
       (pkgs.python3.withPackages (
