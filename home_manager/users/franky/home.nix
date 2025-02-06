@@ -54,6 +54,12 @@
       # Postgres
       stable.pgadmin4-desktopmode
 
+      # Python
+      uv
+      basedpyright
+      ruff
+      black
+
       # Virtualization
       virt-manager
 
