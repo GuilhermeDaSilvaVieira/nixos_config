@@ -45,7 +45,7 @@
       cargo
       cargo-watch
       rustfmt
-      lldb_18
+      stable.lldb_18
       taplo
 
       # Json

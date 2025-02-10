@@ -8,7 +8,7 @@
       size = 48;
     };
     theme = {
-      package = pkgs.nordic;
+      package = pkgs.stable.nordic;
       name = "Nordic-bluish-accent";
     };
     iconTheme = {
