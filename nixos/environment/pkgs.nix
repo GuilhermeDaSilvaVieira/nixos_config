@@ -21,6 +21,7 @@
       exiftool
       libnotify
       xdg-user-dirs
+      openssl
 
       #### Browser
       inputs.zen-browser.packages."${system}".specific
