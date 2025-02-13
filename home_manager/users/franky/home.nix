@@ -26,6 +26,7 @@
       lazygit
       tokei
       scrcpy
+      jq
 
       # Bash
       nodePackages_latest.bash-language-server
