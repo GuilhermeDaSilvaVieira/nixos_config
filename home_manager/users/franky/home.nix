@@ -57,6 +57,9 @@
 
       # Python
       uv
+      basedpyright
+      ruff
+      black
 
       # Virtualization
       virt-manager
