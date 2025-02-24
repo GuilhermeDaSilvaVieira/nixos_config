@@ -62,7 +62,7 @@
       stable.kitty
       redshift
       ripgrep
-      maim
+      stable.maim
       starship
     ];
   };
