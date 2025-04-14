@@ -38,7 +38,7 @@
       yt-dlp
       zathura
       foliate
-      shotcut
+      stable.shotcut
 
       # Editors
       helix
