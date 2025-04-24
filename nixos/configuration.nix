@@ -44,13 +44,13 @@
     nixPath = lib.mapAttrsToList (key: value: "${key}=${value.to.path}") config.nix.registry;
     settings = {
       experimental-features = "nix-command flakes";
-      binary-caches = [ "https://cache.nixos.org/" ];
-      trusted-substituters = [ "https://cache.nixos.org/" ];
+      # binary-caches = [ "https://cache.nixos.org/" ];
+      # trusted-substituters = [ "https://cache.nixos.org/" ];
       auto-optimise-store = true;
-      download-buffer-size = 268435456; # 256MB
-      narinfo-cache-positive-ttl = 86400; # 1 day for existent pkgs
-      narinfo-cache-negative-ttl = 3600; # 1 hour for inexistent pkgs
-      max-jobs = 6;
+      download-buffer-size = 4294967296; # 4GB
+      # narinfo-cache-positive-ttl = 86400; # 1 day for existent pkgs
+      # narinfo-cache-negative-ttl = 3600; # 1 hour for inexistent pkgs
+      # max-jobs = 6;
     };
     gc = {
       automatic = false;
@@ -61,6 +61,17 @@
     # extraOptions = ''
     #   download-buffer-size = 134217728
     # '';
+  };
+
+  system.userActivationScripts = {
+    stdio = {
+      text = ''
+        rm -f ~/Android/Sdk/platform-tools/adb
+        ln -s /run/current-system/sw/bin/adb ~/Android/Sdk/platform-tools/adb
+      '';
+      deps = [
+      ];
+    };
   };
 
   # https://nixos.wiki/wiki/FAQ/When_do_I_update_stateVersion

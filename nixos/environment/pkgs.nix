@@ -43,6 +43,7 @@
       # Editors
       helix
       renameutils
+      stable.libreoffice
 
       transmission_4-gtk
 

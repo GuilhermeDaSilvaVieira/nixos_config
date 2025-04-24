@@ -22,11 +22,24 @@
     username = "franky";
     homeDirectory = "/home/franky";
     packages = with pkgs; [
+      # Emergency editor
+      vscode-fhs
+
       # Tools
       lazygit
+      gitui
       tokei
       scrcpy
       jq
+
+      # Flutter
+      flutter
+      jdk17
+      android-studio
+      clang
+      cmake
+      ninja
+      pkg-config
 
       # Bash
       nodePackages_latest.bash-language-server
@@ -60,6 +73,15 @@
       basedpyright
       ruff
       black
+
+      # JS/TS
+      nodejs
+      typescript
+      vue-language-server
+      typescript-language-server
+      nodePackages_latest.prettier
+      emmet-language-server
+      tailwindcss-language-server
 
       # Virtualization
       virt-manager
